@@ -1,0 +1,1117 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Avenir-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.animaapp.com/Avenir-Medium") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://fonts.animaapp.com/Avenir-Black") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Avenir-Heavy") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.avenir-black-salem-50px {
+  color: var(--salem);
+  font-family: "Avenir-Black", Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+}
+.avenir-black-tuatara-16px {
+  color: var(--tuatara);
+  font-family: "Avenir", Helvetica;
+  font-size: 16px;
+}
+.avenir-heavy-normal-tuatara-42px {
+  color: var(--tuatara);
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-42px {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-medium-cerulean-24px {
+  color: var(--cerulean);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.avenir-medium-concord-36px {
+  color: var(--concord);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+.avenir-medium-resolution-blue-24px {
+  color: var(--resolution-blue);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.avenir-medium-tuatara-24px {
+  color: var(--tuatara);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.avenir-medium-tuatara-42px {
+  color: var(--tuatara);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+}
+.avenir-medium-white-24px {
+  color: white;
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.border-1px-cerulean {
+  border: 1px solid var(--cerulean);
+}
+.border-class-1 {
+  border: 5px solid rgba(255, 255, 255, 1);
+}
+.desktop {
+  align-items: center;
+  background-color: var(--feta);
+  display: flex;
+  flex-direction: column;
+  height: 4960px;
+  overflow: hidden;
+  width: 1920px;
+}
+.desktop .arrow-down-sign-to-navigate {
+  height: 7px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 12px;
+}
+.desktop .banner-mensa-he-seller-program {
+  height: 821px;
+  left: 0px;
+  position: absolute;
+  top: 85px;
+  width: 1920px;
+}
+.desktop .banner-mensa-healthclub {
+  height: 824px;
+  left: 0px;
+  position: absolute;
+  top: 85px;
+  width: 1927px;
+}
+.desktop .belanja-icon1 {
+  height: 162px;
+  left: -769px;
+  position: absolute;
+  top: -3850px;
+  width: 201px;
+}
+.desktop .button {
+  align-items: flex-end;
+  align-self: center;
+  background-color: var(--salem);
+  border-radius: 40px;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  margin-right: 0.67px;
+  margin-top: 60px;
+  min-width: 533px;
+  padding: 9.1px 126.7px;
+}
+.desktop .cara-ikutan-icon {
+  height: 159px;
+  left: -377px;
+  position: absolute;
+  top: -3850px;
+  width: 197px;
+}
+.desktop .doni {
+  letter-spacing: 0px;
+  line-height: 42px;
+  min-height: 58px;
+  min-width: 90px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .ellipse-10 {
+  align-self: center;
+  background-color: white;
+  border-radius: 4px;
+  height: 8px;
+  margin-left: 39px;
+  margin-top: 8px;
+  width: 8px;
+}
+.desktop .ellipse-11 {
+  align-self: center;
+  background-color: white;
+  border-radius: 4px;
+  height: 8px;
+  margin-left: 40px;
+  margin-top: 8px;
+  width: 8px;
+}
+.desktop .ellipse-12 {
+  align-self: center;
+  background-color: white;
+  border-radius: 4px;
+  height: 8px;
+  margin-left: 42px;
+  margin-top: 8px;
+  width: 8px;
+}
+.desktop .ellipse-13 {
+  background-color: rgba(250, 202, 40, 1);
+  border-radius: 53.82514953613281px/53.82516098022461px;
+  height: 108px;
+  left: 111px;
+  position: absolute;
+  top: 252px;
+  width: 108px;
+}
+.desktop .ellipse-14 {
+  background-color: rgba(144, 90, 3, 1);
+  border-radius: 53.82514953613281px/53.82516098022461px;
+  height: 108px;
+  left: 92px;
+  position: absolute;
+  top: 224px;
+  width: 108px;
+}
+.desktop .ellipse-15 {
+  background-color: rgba(144, 144, 144, 1);
+  border-radius: 53.82514953613281px/53.82516098022461px;
+  height: 108px;
+  left: 94px;
+  position: absolute;
+  top: 224px;
+  width: 108px;
+}
+.desktop .ellipse-21 {
+  align-self: center;
+  background-color: white;
+  border-radius: 4px;
+  height: 8px;
+  margin-left: 41px;
+  margin-top: 8px;
+  width: 8px;
+}
+.desktop .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  min-height: 3235px;
+  width: 1927px;
+}
+.desktop .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33.64px;
+  min-height: 112px;
+  width: 188px;
+}
+.desktop .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 56px;
+  min-height: 572px;
+  width: 664px;
+}
+.desktop .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 56px;
+  margin-top: 33.64px;
+  min-height: 112px;
+  width: 188px;
+}
+.desktop .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 7px;
+  margin-top: 104px;
+  min-width: 1110px;
+}
+.desktop .flex-row-1 {
+  align-items: center;
+  display: flex;
+  min-width: 1360px;
+}
+.desktop .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 394px;
+  margin-right: 6.64px;
+  margin-top: 67px;
+  min-width: 1258px;
+}
+.desktop .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 572px;
+  margin-left: 2px;
+  margin-top: 14px;
+  min-width: 1152px;
+}
+.desktop .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 28px;
+  min-width: 1116px;
+}
+.desktop .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 30px;
+  min-width: 734px;
+}
+.desktop .footer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 211px;
+  min-height: 163px;
+  width: 1920px;
+}
+.desktop .gift {
+  align-items: flex-start;
+  display: flex;
+  height: 15px;
+  margin-top: 5.4px;
+  min-width: 16px;
+}
+.desktop .group-113 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  min-width: 294px;
+}
+.desktop .group-114 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin-left: 169px;
+  min-width: 294px;
+}
+.desktop .group-136 {
+  align-items: flex-end;
+  display: flex;
+  height: 32px;
+  min-width: 1100px;
+}
+.desktop .hadiah {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  min-width: 223px;
+}
+.desktop .hadiah-1 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-bottom: -10.5px;
+  min-height: 34px;
+  min-width: 76px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .header {
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.102);
+  display: flex;
+  height: 88px;
+  left: 0px;
+  min-width: 1920px;
+  padding: 0 72px;
+  position: absolute;
+  top: 0px;
+}
+.desktop .invoice {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 6px;
+  min-width: 16px;
+}
+.desktop .kartika {
+  letter-spacing: 0px;
+  line-height: 42px;
+  min-height: 58px;
+  min-width: 128px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .kataloghadiah {
+  letter-spacing: 0px;
+  line-height: 50px;
+  margin-top: 27px;
+  min-height: 137px;
+  min-width: 193px;
+  white-space: nowrap;
+}
+.desktop .kebijakan-privasi {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-bottom: -10.5px;
+  margin-left: 43px;
+  min-height: 34px;
+  min-width: 178px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .kontak-kami {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-bottom: -10.5px;
+  margin-left: 43px;
+  min-height: 34px;
+  min-width: 134px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .login {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-left: 31px;
+  margin-top: 5px;
+  min-height: 34px;
+  min-width: 61px;
+  text-align: right;
+  white-space: nowrap;
+}
+.desktop .login-1 {
+  letter-spacing: 0px;
+  line-height: 32px;
+  min-height: 58px;
+  min-width: 106px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .logo-mensa {
+  height: 78px;
+  width: 156px;
+}
+.desktop .mask-group-1 {
+  height: 273px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 294px;
+}
+.desktop .mask-group-6 {
+  height: 307px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 331px;
+}
+.desktop .name {
+  letter-spacing: 0px;
+  line-height: 42px;
+  min-height: 58px;
+  min-width: 116px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .name-1 {
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-top: 220px;
+  min-height: 69px;
+  min-width: 664px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .number {
+  left: 136px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  position: absolute;
+  text-align: center;
+  top: 253px;
+  white-space: nowrap;
+}
+.desktop .number-1 {
+  left: 154px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  position: absolute;
+  text-align: center;
+  top: 281px;
+  white-space: nowrap;
+}
+.desktop .number-2 {
+  left: 135px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  position: absolute;
+  text-align: center;
+  top: 253px;
+  white-space: nowrap;
+}
+.desktop .overlap-group {
+  height: 909px;
+  position: relative;
+  width: 1927px;
+}
+.desktop .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--emerald);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.102);
+  display: flex;
+  flex-direction: column;
+  min-height: 353px;
+  padding: 26.5px 27px;
+  width: 351px;
+}
+.desktop .overlap-group1-1 {
+  height: 331px;
+  margin-bottom: -0px;
+  position: relative;
+  width: 294px;
+}
+.desktop .overlap-group10 {
+  align-items: flex-end;
+  background-color: var(--ocean-green);
+  border-radius: 51px;
+  display: flex;
+  height: 90px;
+  justify-content: flex-end;
+  margin-left: 100px;
+  min-width: 505px;
+  padding: 6px 198px;
+}
+.desktop .overlap-group11 {
+  height: 16px;
+  margin-top: -0px;
+  position: relative;
+  width: 16px;
+}
+.desktop .overlap-group11-1 {
+  height: 11px;
+  margin-top: -0px;
+  position: relative;
+  width: 16px;
+}
+.desktop .overlap-group14 {
+  align-items: flex-end;
+  background-color: var(--cerulean);
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  min-width: 1920px;
+  padding: 5.5px 834px;
+}
+.desktop .overlap-group15 {
+  align-items: flex-start;
+  background-color: var(--resolution-blue);
+  display: flex;
+  height: 105px;
+  min-width: 1920px;
+  padding: 34px 410px;
+}
+.desktop .overlap-group16 {
+  height: 162px;
+  margin-bottom: -3726px;
+  margin-left: 546px;
+  position: relative;
+  width: 226px;
+}
+.desktop .overlap-group17 {
+  height: 159px;
+  margin-bottom: -3723px;
+  margin-left: 161px;
+  position: relative;
+  width: 236px;
+}
+.desktop .overlap-group18 {
+  height: 165px;
+  margin-bottom: -4112px;
+  margin-left: 763px;
+  position: relative;
+  width: 210px;
+}
+.desktop .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--aero-blue);
+  display: flex;
+  flex-direction: column;
+  margin-right: 7px;
+  margin-top: 200px;
+  min-height: 725px;
+  padding: 100px 280px;
+  width: 1920px;
+}
+.desktop .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--emerald);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.102);
+  display: flex;
+  height: 353px;
+  justify-content: flex-end;
+  margin-left: 29px;
+  min-width: 352px;
+}
+.desktop .overlap-group4 {
+  align-items: flex-end;
+  background-color: var(--emerald);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.102);
+  display: flex;
+  height: 353px;
+  justify-content: flex-end;
+  min-width: 353px;
+}
+.desktop .overlap-group5 {
+  align-items: flex-end;
+  background-color: var(--emerald);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.102);
+  display: flex;
+  height: 353px;
+  justify-content: flex-end;
+  margin-left: 30px;
+  min-width: 353px;
+}
+.desktop .overlap-group6 {
+  align-self: flex-start;
+  height: 360px;
+  margin-left: 169px;
+  position: relative;
+  width: 331px;
+}
+.desktop .overlap-group7 {
+  align-items: flex-end;
+  background-color: var(--salem);
+  border-radius: 39px;
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-right: 2px;
+  margin-top: 110px;
+  min-width: 385px;
+  padding: 6px 130px;
+}
+.desktop .overlap-group8 {
+  align-items: flex-end;
+  background-color: var(--salem);
+  border-radius: 51px;
+  display: flex;
+  height: 90px;
+  justify-content: flex-end;
+  min-width: 505px;
+  padding: 7px 51px;
+}
+.desktop .overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--emerald);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.102);
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  min-height: 353px;
+  padding: 31px 38px;
+  width: 351px;
+}
+.desktop .path-65 {
+  height: 1px;
+  left: 6px;
+  position: absolute;
+  top: 5px;
+  width: 4px;
+}
+.desktop .path-66 {
+  height: 1px;
+  left: 6px;
+  position: absolute;
+  top: 8px;
+  width: 7px;
+}
+.desktop .path-67 {
+  height: 16px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.desktop .path-68 {
+  height: 8px;
+  left: 1px;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+.desktop .path-69 {
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 3px;
+  width: 16px;
+}
+.desktop .path-70 {
+  height: 4px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 6px;
+}
+.desktop .path-71 {
+  height: 4px;
+  left: 7px;
+  position: absolute;
+  top: 0px;
+  width: 6px;
+}
+.desktop .path-72 {
+  height: 16px;
+  margin-top: 5px;
+  width: 17px;
+}
+.desktop .path-88 {
+  height: 29px;
+  left: -194px;
+  position: absolute;
+  top: -3837px;
+  width: 29px;
+}
+.desktop .path-89 {
+  height: 25px;
+  left: -402px;
+  position: absolute;
+  top: -3735px;
+  width: 37px;
+}
+.desktop .path-90 {
+  height: 29px;
+  left: -587px;
+  position: absolute;
+  top: -3727px;
+  width: 29px;
+}
+.desktop .path-91 {
+  height: 25px;
+  left: -784px;
+  position: absolute;
+  top: -3844px;
+  width: 37px;
+}
+.desktop .path-94 {
+  height: 29px;
+  left: -974px;
+  position: absolute;
+  top: -4151px;
+  width: 29px;
+}
+.desktop .path-95 {
+  height: 25px;
+  left: -806px;
+  position: absolute;
+  top: -4217px;
+  width: 37px;
+}
+.desktop .penukaran-hadiah {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-bottom: -6px;
+  margin-left: 13px;
+  min-height: 34px;
+  min-width: 194px;
+  text-align: right;
+  white-space: nowrap;
+}
+.desktop .place {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-left: 37px;
+  margin-top: 5px;
+  min-height: 34px;
+  min-width: 87px;
+  text-align: right;
+  white-space: nowrap;
+}
+.desktop .rectangle-58 {
+  height: 22px;
+  margin-bottom: 1px;
+  margin-left: 40px;
+  width: 2px;
+}
+.desktop .rectangle-63 {
+  background-color: var(--resolution-blue);
+  height: 1px;
+  left: 3px;
+  position: absolute;
+  top: 15px;
+  width: 10px;
+}
+.desktop .rectangle-64 {
+  background-color: var(--resolution-blue);
+  height: 11px;
+  left: 7px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+.desktop .redeem-hadiah-icon {
+  align-self: center;
+  height: 169px;
+  margin-left: 1px;
+  width: 208px;
+}
+.desktop .selanjutnya {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  min-height: 34px;
+  min-width: 124px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .seller {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  min-width: 205px;
+}
+.desktop .seller-program {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-bottom: -6px;
+  margin-left: 12px;
+  min-height: 34px;
+  min-width: 158px;
+  text-align: right;
+  white-space: nowrap;
+}
+.desktop .sepeda-lipat {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6061476cb2357c7f127bbc43/releases/606147c77a24c047f8755254/img/mask-group-2@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 337px;
+  justify-content: flex-end;
+  margin-left: 128px;
+  min-width: 241px;
+  padding: 32.5px 73px;
+}
+.desktop .sepeda-lipat-1 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6061476cb2357c7f127bbc43/releases/606147c77a24c047f8755254/img/mask-group-2-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 337px;
+  justify-content: flex-end;
+  margin-left: 25px;
+  min-width: 240px;
+  padding: 29.5px 77px;
+}
+.desktop .sepeda-lipat-2 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6061476cb2357c7f127bbc43/releases/606147c77a24c047f8755254/img/mask-group-2@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 337px;
+  justify-content: flex-end;
+  margin-left: 26px;
+  min-width: 241px;
+  padding: 29.5px 73px;
+}
+.desktop .sepeda-lipat-3 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6061476cb2357c7f127bbc43/releases/606147c77a24c047f8755254/img/mask-group-2-3@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 337px;
+  justify-content: flex-end;
+  margin-left: 24px;
+  min-width: 241px;
+  padding: 29.5px 77px;
+}
+.desktop .smartband900-poin {
+  color: var(--tuatara);
+  font-family: "Avenir", Helvetica;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 21px;
+  min-height: 45px;
+  min-width: 84px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .span0 {
+  color: rgba(14, 129, 63, 1);
+  font-family: "Avenir-Black", Helvetica;
+  font-weight: 900;
+}
+.desktop .span0-1 {
+  color: rgba(52, 52, 52, 1);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+}
+.desktop .span0-2 {
+  color: rgba(52, 52, 52, 1);
+  font-family: "Avenir-Medium", Helvetica;
+  font-weight: 500;
+}
+.desktop .span1 {
+  color: rgba(14, 129, 63, 1);
+  font-family: "Avenir-Black", Helvetica;
+  font-size: 25px;
+  font-weight: 900;
+}
+.desktop .span1-1 {
+  color: rgba(52, 52, 52, 1);
+  font-family: "Avenir-Black", Helvetica;
+  font-size: 16px;
+  font-weight: 900;
+}
+.desktop .span1-2 {
+  color: rgba(52, 52, 52, 1);
+  font-family: "Avenir-Black", Helvetica;
+  font-weight: 900;
+}
+.desktop .span2 {
+  color: rgba(14, 129, 63, 1);
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+}
+.desktop .syarat-ketentuan {
+  letter-spacing: 0px;
+  line-height: 23px;
+  margin-bottom: 43.72px;
+  min-height: 34px;
+  min-width: 206px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+.desktop .syarat-ketentuan-1 {
+  height: 165px;
+  left: -969px;
+  position: absolute;
+  top: -4233px;
+  width: 205px;
+}
+.desktop .syarat-ketentuan-2 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-bottom: -10.5px;
+  margin-left: 44px;
+  min-height: 34px;
+  min-width: 206px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text- {
+  letter-spacing: 0px;
+  line-height: 20px;
+  min-height: 43px;
+  min-width: 92px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-1 {
+  letter-spacing: 0px;
+  line-height: 60px;
+  margin-right: 3px;
+  margin-top: 31px;
+  min-height: 118px;
+  min-width: 988px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-10 {
+  letter-spacing: 0px;
+  line-height: 33px;
+  margin-top: 23px;
+  min-height: 67px;
+  min-width: 294px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-11 {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-top: 20px;
+  min-height: 66px;
+  min-width: 274px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-12 {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-bottom: 31px;
+  min-height: 66px;
+  min-width: 246px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-13 {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-bottom: 31px;
+  min-height: 66px;
+  min-width: 236px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-2 {
+  letter-spacing: 0px;
+  line-height: 32px;
+  min-height: 58px;
+  min-width: 400px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-3 {
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-right: 5px;
+  margin-top: 280px;
+  min-height: 69px;
+  min-width: 694px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-4 {
+  letter-spacing: 0px;
+  line-height: 47px;
+  margin-right: 5px;
+  margin-top: 10px;
+  min-height: 58px;
+  min-width: 810px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-5 {
+  color: var(--salem);
+  font-family: "Avenir", Helvetica;
+  font-size: 50px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  margin-right: 17px;
+  margin-top: 110px;
+  min-height: 69px;
+  min-width: 690px;
+  white-space: nowrap;
+}
+.desktop .text-8 {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  min-height: 42px;
+  min-width: 278px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .text-9 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  min-height: 34px;
+  min-width: 250px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .upload-struk {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  margin-bottom: 5px;
+  margin-left: 580px;
+  min-width: 168px;
+}
+.desktop .upload-struk-1 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-bottom: -6px;
+  margin-left: 13px;
+  min-height: 34px;
+  min-width: 139px;
+  text-align: right;
+  white-space: nowrap;
+}
+.desktop .upload-struk-2 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-bottom: -10.5px;
+  margin-left: 42px;
+  min-height: 34px;
+  min-width: 140px;
+  text-align: center;
+  white-space: nowrap;
+}
+.desktop .upload-struk-icon {
+  align-self: flex-end;
+  height: 165px;
+  margin-right: 41px;
+  width: 193px;
+}
+.desktop .x000-poin {
+  letter-spacing: 0px;
+  line-height: 36px;
+  margin-top: 3px;
+  min-height: 50px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+}
+:root {
+  --aero-blue: rgba(208, 255, 228, 1);
+  --cerulean: rgba(48, 164, 220, 1);
+  --concord: rgba(124, 124, 124, 1);
+  --emerald: rgba(74, 213, 133, 1);
+  --feta: rgba(245, 255, 237, 1);
+  --ocean-green: rgba(53, 190, 111, 1);
+  --resolution-blue: rgba(8, 40, 145, 1);
+  --salem: rgba(14, 129, 63, 1);
+  --tuatara: rgba(52, 52, 52, 1);
+}
